@@ -29,8 +29,10 @@ export default function Home(){
       <button className=" mt-6 bg-black text-white py-2 rounded-md font-medium hover:bg-gray-800 transition ">Sign up</button>
       <p className="mt-4 text-center text-gray-600">Already Registered <span className="text-blue-600 cursor-pointer hover:underline"> Sign in </span></p>
       </div>
-      <footer className = "text-xs text-gray-500 text-center pb-6">
-        By Continuing,You agree to our Terms of Service And privacy policy 
+
+
+      <footer className = "text-xs text-gray-500 text-center pb-0">
+        By Continuing,You agree to our <span className="underline">Terms of Service </span> And <span className="underline">Privacy policy </span>
       </footer>
      
 
