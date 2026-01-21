@@ -32,8 +32,15 @@ export default function Home(){
           <img src="nvidia-white.svg"></img>
           <img src = "deutsche.svg"></img>
            <img src = "walt.svg"></img>
-
         </div>
+        {/* <div  className="text-2xl mt-30 ml-20">
+          <img src="rating.png"> 4.5 stars and 1,059+ reviews</img>
+         
+        </div> */}
+        <div className="flex items-center gap-3 mt-25 ml-20 text-2xl font-medium">
+  
+  <span>4.5 stars and 1,059+ reviews</span>
+</div>
        
       </div>
 
