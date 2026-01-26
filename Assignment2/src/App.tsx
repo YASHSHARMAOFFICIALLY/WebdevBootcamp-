@@ -1,12 +1,12 @@
 export default function Home(){
   return (
      <div className=" flex flex-col  md:flex-row min-h-screen ">
-      <div className="bg-gray-900 flex-1  flex flex-col text-white p-10 md:p-16" >
+      <div className="bg-gray-900 flex-1  flex flex-col text-white p-10 md:p-16 " >
         <div className="font-bold cursor-pointer text-2xl  ">
           ||ElevenLabs
         </div>
         <div>
-          <h1 className="text-4xl font-bold  leading-tight md:text-5xl mt-10 md:mt-20">
+          <h1 className="text-4xl font-bold  leading-tight md:text-5xl mt-10 md:mt-30">
             Contact out sales team
           </h1>
           <p  className="mt-10 space-y-6 ">
@@ -34,14 +34,14 @@ export default function Home(){
            <img src = "walt.svg" className="h-6" ></img>
         </div>
         
-        <div className="flex items-center gap-3 mt-auto  text-2xl font-medium">
+        <div className="flex items-center gap-3 mt-10 md:mt-auto  text-2xl font-medium pt-10">
           <span className="text-yellow-400">★★★★★</span>
           <span>4.5 stars and 1,059+ reviews</span>
         </div>  
       </div>
 
 
-      <div className=" flex-1 flex  flex-col items-center justify-center p-10 bg-white -mt-40 ">
+      <div className=" flex-1 flex  flex-col items-center p-10 pt-20 md:pt-60 bg-white  ">
 
         <div className="w-full max-w-md  ">
           <h1 className="text-4xl font-medium text-gray-900 ">
